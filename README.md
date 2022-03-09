@@ -1,5 +1,5 @@
 # Como funciona
-Página que exibe temperatura atual de todas as capitais do Brasil, de acordo com a latitude e longitude de cada cidade com informções externas de uma API.
+Página que exibe temperatura atual de todas as capitais do Brasil, de acordo com a latitude e longitude de cada cidade com informações externas de uma API.
 
 # API Utilizada
 https://openweathermap.org/api
