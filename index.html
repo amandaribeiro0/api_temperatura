@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do tempo </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body >
+
+    <nav id="nav" class="navbar navbar-light">
+        <span class="navbar-brand "> <h1 class="col-md-12" style="text-align: center;" >Temperatura das capitais brasileiras</h1> </span>
+    </nav>
+    <br>
+    <div class="col-md-12 row " >
+        <div class="card col-md-2" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title" id="citySP" >  </h5>
+            <p class="card-text" id="tempSP" > </p>
+            </div>
+        </div>
+
+
+        <div class="card col-md-2" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title" id="cityRJ" >  </h5>
+            <p class="card-text" id="tempRJ" > </p>
+            
+            </div>
+        </div>
+
+        <div class="card col-md-2" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title" id="cityMG" >  </h5>
+            <p class="card-text" id="tempMG" > </p>
+            
+            </div>
+        </div>
+
+        
+        <div class="card col-md-2" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title" id="cityAC" >  </h5>
+            <p class="card-text" id="tempAC" > </p>
+            
+            </div>
+        </div>
+
+        <div class="card col-md-2" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title" id="cityAL" >  </h5>
+            <p class="card-text" id="tempAL" > </p>
+            
+            </div>
+        </div>
+
+        <div class="card col-md-2" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title" id="cityAP" >  </h5>
+            <p class="card-text" id="tempAP" > </p>
+            
+            </div>
+        </div>
+
+    </div>
+
+    <!--Segunda linha-->
+    <div class="col-md-12 row " >
+
+        <div class="card col-md-2" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title" id="cityAM" >  </h5>
+            <p class="card-text" id="tempAM" > </p>
+            </div>
+        </div>
+
+
+        <div class="card col-md-2" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title" id="cityBA" >  </h5>
+            <p class="card-text" id="tempBA" > </p>
+            
+            </div>
+        </div>
+
+        <div class="card col-md-2" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title" id="cityCE" >  </h5>
+            <p class="card-text" id="tempCE" > </p>
+            
+            </div>
+        </div>
+
+        <div class="card col-md-2" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title" id="cityDF" >  </h5>
+            <p class="card-text" id="tempDF" > </p>
+            
+            </div>
+        </div>
+
+        <div class="card col-md-2" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title" id="cityES" >  </h5>
+            <p class="card-text" id="tempES" > </p>
+            
+            </div>
+        </div>
+
+        <div class="card col-md-2" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title" id="cityGO" >  </h5>
+            <p class="card-text" id="tempGO" > </p>
+            
+            </div>
+        </div>
+    </div>
+
+    <!--Terceira linha-->
+    <div class="col-md-12 row " >
+
+        <div class="card col-md-2" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title" id="cityMA" >  </h5>
+            <p class="card-text" id="tempMA" > </p>
+            </div>
+        </div>
+
+        <div class="card col-md-2" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title" id="cityMT" >  </h5>
+            <p class="card-text" id="tempMT" > </p>
+            </div>
+        </div>
+
+        <div class="card col-md-2" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title" id="cityMS" >  </h5>
+            <p class="card-text" id="tempMS" > </p>
+            </div>
+        </div>
+
+        <div class="card col-md-2" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title" id="cityPA" >  </h5>
+            <p class="card-text" id="tempPA" > </p>
+            </div>
+        </div>
+
+        <div class="card col-md-2" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title" id="cityPB" >  </h5>
+            <p class="card-text" id="tempPB" > </p>
+            </div>
+        </div>
+
+        <div class="card col-md-2" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title" id="cityPR" >  </h5>
+            <p class="card-text" id="tempPR" > </p>
+            </div>
+        </div>
+    </div>
+
+    <!--Quarta linha-->
+    <div class="col-md-12 row " >
+
+        <div class="card col-md-2" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title" id="cityPE" >  </h5>
+            <p class="card-text" id="tempPE" > </p>
+            </div>
+        </div>
+
+        <div class="card col-md-2" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title" id="cityPI" >  </h5>
+            <p class="card-text" id="tempPI" > </p>
+            </div>
+        </div>
+
+        <div class="card col-md-2" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title" id="cityRN" >  </h5>
+            <p class="card-text" id="tempRN" > </p>
+            </div>
+        </div>
+
+        <div class="card col-md-2" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title" id="cityRS" >  </h5>
+            <p class="card-text" id="tempRS" > </p>
+            </div>
+        </div>
+
+        <div class="card col-md-2" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title" id="cityRO" >  </h5>
+            <p class="card-text" id="tempRO" > </p>
+            </div>
+        </div>
+
+        <div class="card col-md-2" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title" id="cityRR" >  </h5>
+            <p class="card-text" id="tempRR" > </p>
+            </div>
+        </div>
+        
+    </div> 
+
+    <!--Quinta linha-->
+    <div class="col-md-12 row " >
+
+        <div class="card col-md-2" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title" id="citySC" >  </h5>
+            <p class="card-text" id="tempSC" > </p>
+            </div>
+        </div>
+
+        <div class="card col-md-2" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title" id="citySE" >  </h5>
+            <p class="card-text" id="tempSE" > </p>
+            </div>
+        </div>
+
+        <div class="card col-md-2" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title" id="cityTO" >  </h5>
+            <p class="card-text" id="tempTO" > </p>
+            </div>
+        </div>
+        
+    </div> 
+
+    <script src="script.js"></script>
+</body>
+</html>
